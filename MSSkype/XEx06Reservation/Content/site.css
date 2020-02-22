@@ -1,0 +1,51 @@
+﻿/* Bootstrap styles */
+.jumbotron {
+    margin: 1em 1em 0 0;
+    padding: 1em 0;
+    
+}
+.container main {
+    padding: 0 1em;
+}
+.btn-primary {
+    border-color: darkslateblue;
+    background-color: rebeccapurple;
+}
+.btn-primary:hover, .btn-primary:focus {
+    background-color: darkslateblue;
+}
+label {
+    font-weight: normal;
+}
+
+/* Other styles */
+footer {
+    border-top: 1px solid rebeccapurple;
+    margin-right: 1em;
+}
+footer p {
+    font-size: 80%;
+    text-align: right;
+}
+.bedtype label { /* Used to correct Bootstrap RadioButton server control style issue*/
+    padding: 0 2em 0 0.5em;
+}
+
+
+.card-group{
+    margin: 30px;
+    max-height: 100%;
+    max-width: 50%;
+    text-align: center;
+    font-size: medium;
+    color: red;
+    border-image-width: 10px;
+    align-items: center;
+    align-content: stretch;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding-top: 10px;
+   
+
+}
